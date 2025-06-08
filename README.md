@@ -14,14 +14,15 @@ Os requisitos para este desafio são:
 
 1. Clone o repositório
 2. Execute: go mod tidy
+3. Execute: go run main.go --cep=14030-430
 
 # Todas estas formas funcionarão:
-go run main.go --cep=14030-430
-go run main.go --cep=14030430
-go run main.go 14030-430
-go run main.go 14030430
-go run main.go 14030=430
-go run main.go "14030 430"
+--cep=14030-430  
+--cep=14030430 
+14030-430 
+14030430 
+14030=430 
+"14030 430"
 
 
 
